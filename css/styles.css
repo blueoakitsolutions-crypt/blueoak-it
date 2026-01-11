@@ -1,0 +1,210 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Prevent horizontal scroll on mobile */
+    overflow-x: hidden; 
+}
+
+/* Home Banner */
+.home-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Responsive Search Bar Container */
+/* On mobile, inputs will stack properly due to flex-wrap in HTML */
+.form-control, .form-select {
+    font-size: 16px; /* Prevents iOS zooming on input focus */
+}
+
+/* Job Tile Styles */
+.job-tile {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #dee2e6;
+}
+
+/* Disable hover transform on mobile to prevent sticky states */
+@media (min-width: 768px) {
+    .job-tile:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+}
+
+.selected-job-card {
+    border: 2px solid #0d6efd;
+    background-color: #e7f1ff;
+}
+
+/* Suggestion Box */
+.suggest-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.suggest-item {
+    padding: 10px; /* Larger tap target for mobile */
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.suggest-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* --- HERO SECTION STYLES --- */
+.hero-section {
+    position: relative;
+    /* Use your existing image, scaled to cover the area */
+    background: url('../images/blueoka.jpg') no-repeat center center; 
+    background-size: cover;
+    /* Takes 75% of the viewport height for drama */
+    height: 75vh; 
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* The dark blue tint overlay */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Gradient from Navy to darker Black/Blue */
+    background: linear-gradient(135deg, rgba(0, 51, 102, 0.85), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* Sits on top of overlay */
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* --- FEATURE CARDS (Floating effect) --- */
+.features-section {
+    position: relative;
+    margin-top: -80px; /* Pulls section UP into the hero area */
+    z-index: 3;
+    padding-bottom: 60px;
+}
+
+.feature-card {
+    background: white;
+    border: none;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 51, 102, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px); /* Lifts up on hover */
+    box-shadow: 0 15px 40px rgba(0, 51, 102, 0.2);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: #e7f1ff;
+    color: #003366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 24px;
+}
+
+/* --- TRUST STRIP --- */
+.trust-strip {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* --- SUB-PAGE HEADERS (Shorter than Home) --- */
+.page-header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 40vh; /* Shorter height for inner pages */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Specific Backgrounds */
+.bg-about { background-image: url('../images/blueoka.jpg'); } /* Reuse or add team image */
+.bg-contact { background-image: url('../images/blueoka.jpg'); } /* Reuse or add map image */
+.bg-it { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?technology,code'); }
+.bg-nonit { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?office,meeting'); }
+
+/* --- ABOUT SECTION --- */
+.text-justify { text-align: justify; }
+
+.value-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+    border-left: 5px solid #0d6efd; /* Accent strip */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+.value-card:hover { transform: translateY(-5px); }
+
+/* --- CONTACT SECTION --- */
+.contact-card-floating {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    margin-top: -100px; /* Overlap effect */
+    position: relative;
+    z-index: 10;
+}
+
+.info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.info-icon {
+    width: 40px;
+    height: 40px;
+    background: #e7f1ff;
+    color: #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
