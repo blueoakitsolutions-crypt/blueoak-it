@@ -1,5 +1,84 @@
-<html>
-  <body>
-    <h1>BlueOak IT Solutions</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - Blue Oak IT Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo3.png" height="40" alt="Blue Oak"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html" onclick="sessionStorage.setItem('loadType','it')">IT Jobs</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html" onclick="sessionStorage.setItem('loadType','nonit')">Non-IT Jobs</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header bg-about">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+        <h1 class="display-4 fw-bold">Who We Are</h1>
+        <p class="lead opacity-75">Driving Innovation Through Human Potential</p>
+    </div>
+</header>
+
+<section class="container mb-5">
+    <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+            <h6 class="text-primary fw-bold text-uppercase ls-wide">Our Story</h6>
+            <h2 class="display-6 fw-bold mb-4">Bridging the Gap Between Talent and Opportunity</h2>
+            <p class="text-muted text-justify">
+                Established in Hyderabad, Blue Oak IT Solutions began with a simple mission: to simplify the complex world of recruitment. We understood early on that a resume is just a document, but a candidate is a potential game-changer.
+            </p>
+            <p class="text-muted text-justify">
+                Today, we stand as a trusted partner for over 500+ organizations, ranging from agile startups to Fortune 500 giants. Our data-driven approach, combined with human empathy, ensures that every placement is not just a hire, but a long-term match.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="images/blueoka.jpg" class="img-fluid rounded-3 shadow-lg" alt="Office Culture">
+        </div>
+    </div>
+</section>
+
+<section class="container mb-5">
+    <h3 class="fw-bold text-center mb-5">Our Core Values</h3>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="value-card">
+                <h5 class="fw-bold">Integrity First</h5>
+                <p class="text-muted small">We believe in transparent communication. No hidden clauses, no false promises—just honest consultancy.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="value-card" style="border-left-color: #198754;">
+                <h5 class="fw-bold">Precision Matching</h5>
+                <p class="text-muted small">We don't just fill seats. We analyze culture, skill, and ambition to ensure the perfect fit for both sides.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="value-card" style="border-left-color: #ffc107;">
+                <h5 class="fw-bold">Rapid Execution</h5>
+                <p class="text-muted small">Time is money. Our streamlined vetting process reduces hiring time by 40% without compromising quality.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

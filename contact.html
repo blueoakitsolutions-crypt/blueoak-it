@@ -1,6 +1,114 @@
-<html>
-  <body>
-    <h1>WIP.....</h1>
-    Contact Us here
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Blue Oak IT Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo3.png" height="40" alt="Blue Oak"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">IT Jobs</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Non-IT Jobs</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header bg-contact" style="height: 50vh;">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+        <h1 class="display-4 fw-bold">Get in Touch</h1>
+        <p class="lead opacity-75">We are here to answer your questions and help you grow.</p>
+    </div>
+</header>
+
+<div class="container pb-5">
+    <div class="contact-card-floating">
+        <div class="row g-5">
+            
+            <div class="col-lg-7 border-end-lg">
+                <h3 class="fw-bold mb-4">Send us a Message</h3>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label text-muted small">Name</label>
+                            <input type="text" class="form-control" placeholder="John Doe">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-muted small">Email</label>
+                            <input type="email" class="form-control" placeholder="john@example.com">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-muted small">Subject</label>
+                            <select class="form-select">
+                                <option>Looking for a Job</option>
+                                <option>Looking to Hire</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-muted small">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="How can we help?"></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button class="btn btn-primary px-5 py-2">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-5 ps-lg-5">
+                <h3 class="fw-bold mb-4">Contact Info</h3>
+                
+                <div class="info-box">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h6 class="fw-bold mb-1">Our Headquarters</h6>
+                        <p class="text-muted small mb-0">Hitech City, Hyderabad<br>Telangana, India 500081</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h6 class="fw-bold mb-1">Email Us</h6>
+                        <p class="text-muted small mb-0">careers@blueoak-it.com<br>info@blueoak-it.com</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h6 class="fw-bold mb-1">Call Us</h6>
+                        <p class="text-muted small mb-0">+91 40 1234 5678<br>Mon-Fri, 9am - 6pm</p>
+                    </div>
+                </div>
+
+                <div class="mt-4 rounded overflow-hidden shadow-sm">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.12345!2d78.372!3d17.445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI2JzQyLjAiTiA3OMKwMjInMTkuMiJF!5e0!3m2!1sen!2sin!4v1234567890" 
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

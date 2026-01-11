@@ -1,54 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Blue Oak IT Solutions</title>
-   <link href="/css/index.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blue Oak IT Solutions - Careers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="Blue Oak IT Solutions" height="50">
-    </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" onclick="showHome()">
+            <img src="images/logo3.png" height="40" alt="Blue Oak Logo" style="border-radius: 1px;"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="it-jobs.html">IT Jobs</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="non-it-jobs.html">Non-IT Jobs</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" onclick="showHome()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadJobs('it')">IT Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadJobs('nonit')">Non-IT Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
-<!-- Hero Section -->
-    <section class="hero d-flex align-items-center justify-content-center text-center">
+
+<div id="homeSection">
+    
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="display-3 fw-bold mb-3">Empowering Your Future</h1>
+            <p class="lead mb-4 fs-4 text-light opacity-75">
+                Connecting India's exceptional talent with industry-leading organizations.
+                Your next career milestone begins here.
+            </p>
+            
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <button class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow" onclick="loadJobs('it')">
+                    Find IT Jobs
+                </button>
+                <button class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill" onclick="loadJobs('nonit')">
+                    Non-IT Openings
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="features-section">
         <div class="container">
-            <h1 class="text-white display-4">Welcome to Blue Oak IT Solutions</h1>
-            <p class="text-white lead">Your career starts here!</p>
-            <a href="contact.html" class="btn btn-primary btn-lg mt-3">Contact Us</a>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-circle">🚀</div>
+                        <h4 class="fw-bold text-dark">Fast Hiring</h4>
+                        <p class="text-muted">
+                            Our streamlined process ensures you get connected with top recruiters instantly.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-circle">💎</div>
+                        <h4 class="fw-bold text-dark">Premium Roles</h4>
+                        <p class="text-muted">
+                            Access exclusive contract and permanent positions in top-tier MNCs and startups.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-circle">🤝</div>
+                        <h4 class="fw-bold text-dark">Verified Employers</h4>
+                        <p class="text-muted">
+                            We partner only with trusted companies to ensure your career safety and growth.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <!-- Rest of the page content -->
+    <section class="trust-strip border-top">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h2 class="fw-bold text-primary">500+</h2>
+                    <p class="text-uppercase tracking-wider text-muted small fw-bold">Companies Hired</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h2 class="fw-bold text-primary">1,200+</h2>
+                    <p class="text-uppercase tracking-wider text-muted small fw-bold">Careers Built</p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="fw-bold text-primary">100%</h2>
+                    <p class="text-uppercase tracking-wider text-muted small fw-bold">Verified Jobs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<div class="container-fluid p-0" id="jobSection" style="display:none;">
+
+    <header id="jobSectionHeader" class="page-header mb-4">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="display-4 fw-bold" id="jobHeaderTitle">Careers</h1>
+            <p class="lead opacity-75" id="jobHeaderDesc">Explore opportunities.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 d-flex gap-3 position-relative flex-wrap p-3 bg-white rounded shadow-sm border">
+              
+              <div style="min-width: 150px;">
+                <select id="filterType" class="form-select border-0 bg-light" onchange="runSearch()">
+                    <option value="">All Job Types</option>
+                    <option value="Permanent">Permanent</option>
+                    <option value="Contract">Contract</option>
+                </select>
+              </div>
+
+              <div class="flex-grow-1 position-relative">
+                  <input id="searchTitle" class="form-control border-0 bg-light" placeholder="Search job title..." oninput="showSuggestions('title')">
+                  <div id="suggestTitle" class="suggest-box"></div>
+              </div>
+
+              <div class="flex-grow-1 position-relative">
+                  <input id="searchLocation" class="form-control border-0 bg-light" placeholder="City or Region..." oninput="showSuggestions('location')">
+                  <div id="suggestLocation" class="suggest-box"></div>
+              </div>
+
+              <button class="btn btn-primary px-4" onclick="runSearch()">Search</button>
+
+          </div>
+        </div>
+
+        <div class="row pb-5">
+            
+            <div class="col-12" id="jobListColumn">
+                <div id="jobsContainer" class="row g-3">
+                    </div>
+            </div>
+
+            <div class="col-md-8 d-none" id="jobDetailsColumn">
+                <div class="card sticky-top shadow-lg border-0" style="top: 20px;">
+                    <div class="card-header bg-white border-bottom d-flex justify-content-between align-items-center d-md-none">
+                        <strong>Job Details</strong>
+                        <button class="btn btn-sm btn-outline-secondary" onclick="resetToGridView()">← Back to List</button>
+                    </div>
+                    
+                    <div class="card-body p-4" id="detailsContent">
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="applyModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Apply for <span id="modalJobTitle" class="text-primary"></span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form id="applicationForm" onsubmit="event.preventDefault(); submitApplication();">
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Resume Link (Google Drive / LinkedIn)</label>
+                <input type="url" class="form-control" placeholder="https://..." required>
+            </div>
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-success btn-lg">Submit Application</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
