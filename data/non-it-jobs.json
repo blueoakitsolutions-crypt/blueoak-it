@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "HR Executive",
+        "department": "Human Resources",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Recruitment, onboarding, HR operations."
+    },
+    {
+        "id": 2,
+        "title": "Accountant",
+        "department": "Finance",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Tally, GST, payroll processing, accounts finalization."
+    },
+    {
+        "id": 3,
+        "title": "Office Administrator",
+        "department": "Administration",
+        "location": "Chennai",
+        "type": "Permanent",
+        "description": "Office management, vendor coordination, facility support."
+    },
+    {
+        "id": 4,
+        "title": "Marketing Executive",
+        "department": "Marketing",
+        "location": "Hyderabad",
+        "type": "Contract",
+        "description": "Marketing campaigns, lead generation, branding activities."
+    },
+    {
+        "id": 5,
+        "title": "Sales Executive",
+        "department": "Sales",
+        "location": "Mumbai",
+        "type": "Permanent",
+        "description": "Field sales, lead conversion, client meetings."
+    },
+    {
+        "id": 6,
+        "title": "Receptionist",
+        "department": "Front Office",
+        "location": "Pune",
+        "type": "Permanent",
+        "description": "Front desk operations, phone handling, guest coordination."
+    },
+    {
+        "id": 7,
+        "title": "Customer Support Associate",
+        "department": "Support",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Voice/non-voice support, ticket handling."
+    },
+    {
+        "id": 8,
+        "title": "Store Manager",
+        "department": "Retail",
+        "location": "Chennai",
+        "type": "Permanent",
+        "description": "Store operations, inventory, sales reporting."
+    },
+    {
+        "id": 9,
+        "title": "Logistics Coordinator",
+        "department": "Logistics",
+        "location": "Delhi",
+        "type": "Permanent",
+        "description": "Shipment tracking, vendor coordination."
+    },
+    {
+        "id": 10,
+        "title": "Operations Manager",
+        "department": "Operations",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Manage operations, workflow, process improvement."
+    },
+    {
+        "id": 11,
+        "title": "Procurement Executive",
+        "department": "Purchasing",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Vendor purchase, negotiation, supply management."
+    },
+    {
+        "id": 12,
+        "title": "Telecaller",
+        "department": "Call Center",
+        "location": "Hyderabad",
+        "type": "Contract",
+        "description": "Outbound calls, customer queries, lead generation."
+    },
+    {
+        "id": 13,
+        "title": "Graphic Designer",
+        "department": "Media",
+        "location": "Mumbai",
+        "type": "Permanent",
+        "description": "Adobe Photoshop, Illustrator, social media creatives."
+    },
+    {
+        "id": 14,
+        "title": "Content Writer",
+        "department": "Content",
+        "location": "Pune",
+        "type": "Permanent",
+        "description": "SEO content writing, blogs, website content."
+    },
+    {
+        "id": 15,
+        "title": "Data Entry Operator",
+        "department": "Back Office",
+        "location": "Chennai",
+        "type": "Contract",
+        "description": "Typing, data entry, MS Office."
+    },
+    {
+        "id": 16,
+        "title": "Warehouse Supervisor",
+        "department": "Warehouse",
+        "location": "Delhi",
+        "type": "Permanent",
+        "description": "Inventory control, stock management, dispatch."
+    },
+    {
+        "id": 17,
+        "title": "HR Manager",
+        "department": "Human Resources",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Manage HR team, policies, compliance."
+    },
+    {
+        "id": 18,
+        "title": "Business Development Executive",
+        "department": "Business Development",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "New client acquisition, proposals, presentations."
+    },
+    {
+        "id": 19,
+        "title": "Office Boy",
+        "department": "Support Staff",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Office maintenance, serving guests."
+    },
+    {
+        "id": 20,
+        "title": "Driver",
+        "department": "Transport",
+        "location": "Chennai",
+        "type": "Permanent",
+        "description": "Valid license, company vehicle driving."
+    }
+]
