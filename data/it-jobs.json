@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Java Full Stack Developer",
+        "department": "Software Development",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Strong experience in Java, Spring Boot, Microservices and Angular."
+    },
+    {
+        "id": 2,
+        "title": "Python Developer",
+        "department": "Backend Development",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Hands-on experience with Django/Flask, APIs, and PostgreSQL."
+    },
+    {
+        "id": 3,
+        "title": "React Frontend Developer",
+        "department": "Frontend Development",
+        "location": "Chennai",
+        "type": "Contract",
+        "description": "Experience in React, Redux, HTML5, CSS3 and REST integration."
+    },
+    {
+        "id": 4,
+        "title": "DevOps Engineer",
+        "department": "DevOps",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "AWS, Kubernetes, CI/CD pipelines, Jenkins, Terraform."
+    },
+    {
+        "id": 5,
+        "title": "Node.js Developer",
+        "department": "Backend Development",
+        "location": "Mumbai",
+        "type": "Permanent",
+        "description": "Node.js, Express.js, MongoDB, REST APIs."
+    },
+    {
+        "id": 6,
+        "title": "Cloud Engineer (AWS)",
+        "department": "Cloud Services",
+        "location": "Pune",
+        "type": "Permanent",
+        "description": "Strong AWS experience with EC2, S3, RDS, Lambda, VPC."
+    },
+    {
+        "id": 7,
+        "title": "Android Developer",
+        "department": "Mobile App Development",
+        "location": "Hyderabad",
+        "type": "Contract",
+        "description": "Java/Kotlin, Android Studio, Firebase."
+    },
+    {
+        "id": 8,
+        "title": "iOS Developer",
+        "department": "Mobile App Development",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Swift, Objective-C, XCode, REST APIs."
+    },
+    {
+        "id": 9,
+        "title": "Network Engineer",
+        "department": "Network Operations",
+        "location": "Chennai",
+        "type": "Permanent",
+        "description": "Cisco routing/switching, firewalls, VPN, CCNA."
+    },
+    {
+        "id": 10,
+        "title": "IT Support Engineer",
+        "department": "Support",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "L1/L2 support, hardware/software troubleshooting, ticketing tools."
+    },
+    {
+        "id": 11,
+        "title": "Data Analyst",
+        "department": "Analytics",
+        "location": "Noida",
+        "type": "Permanent",
+        "description": "Excel, SQL, PowerBI/Tableau experience required."
+    },
+    {
+        "id": 12,
+        "title": "Data Scientist",
+        "department": "AI/ML",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Machine learning, Python, scikit-learn, TensorFlow."
+    },
+    {
+        "id": 13,
+        "title": "Cyber Security Analyst",
+        "department": "Security",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "SOC operations, SIEM monitoring, vulnerability analysis."
+    },
+    {
+        "id": 14,
+        "title": "UI/UX Designer",
+        "department": "Design",
+        "location": "Pune",
+        "type": "Permanent",
+        "description": "Figma, Adobe XD, wireframing, prototyping."
+    },
+    {
+        "id": 15,
+        "title": "QA Automation Engineer",
+        "department": "Testing",
+        "location": "Chennai",
+        "type": "Contract",
+        "description": "Selenium, Java, automation frameworks, API testing."
+    },
+    {
+        "id": 16,
+        "title": "Manual Tester",
+        "department": "Testing",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Functional testing, regression testing, test case preparation."
+    },
+    {
+        "id": 17,
+        "title": "Project Manager (IT)",
+        "department": "Management",
+        "location": "Bangalore",
+        "type": "Permanent",
+        "description": "Agile, Scrum, IT project planning and team handling."
+    },
+    {
+        "id": 18,
+        "title": "Scrum Master",
+        "department": "Management",
+        "location": "Noida",
+        "type": "Contract",
+        "description": "Agile ceremonies, sprint planning, stakeholder management."
+    },
+    {
+        "id": 19,
+        "title": "AI Engineer",
+        "department": "AI/ML",
+        "location": "Pune",
+        "type": "Permanent",
+        "description": "Deep learning, NLP, model deployment."
+    },
+    {
+        "id": 20,
+        "title": "Power BI Developer",
+        "department": "Analytics",
+        "location": "Hyderabad",
+        "type": "Permanent",
+        "description": "Power BI dashboard design, DAX, SQL."
+    }
+]
